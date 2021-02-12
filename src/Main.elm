@@ -2,7 +2,7 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (..)
-import Html.Attributes exposing (class)
+import Html.Attributes exposing (class, src)
 
 
 main =
@@ -24,6 +24,7 @@ update msg model =
 
 view _ =
     div [ class "flex items-center flex-col justify-center h-full" ]
-        [ div [ class "text-6xl font-extrabold tracking-wide mb-2" ] [ text "Elm Italia" ]
+        [ img [ src "/images/logo.png" ] []
+        , div [ class "text-6xl font-extrabold tracking-wide my-2" ] [ text "Elm Italia" ]
         , div [ class "text-2xl font-extrabold tracking-wide" ] [ text "Arriviamo presto!" ]
         ]
