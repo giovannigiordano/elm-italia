@@ -1,0 +1,24 @@
+{
+  "name": "elm-italia",
+  "version": "1.0.0",
+  "description": "This is the repository for the Elm Italia website",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm make src/Main.elm --output=dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannigiordano/elm-italia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannigiordano/elm-italia/issues"
+  },
+  "homepage": "https://github.com/giovannigiordano/elm-italia#readme",
+  "devDependencies": {
+    "elm": "^0.19.1-5"
+  }
+}
